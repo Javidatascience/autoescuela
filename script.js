@@ -37,7 +37,7 @@ form.addEventListener("submit", (event) => {
 
   formStatus.textContent =
     "✓ ¡Mensaje enviado! Te llamaremos lo antes posible. " +
-    "Si prefieres, llámanos directamente al 954 08 10 67.";
+    "Si prefieres, llámanos directamente al 605 89 91 35.";
   formStatus.className = "form-status ok";
   form.reset();
 });

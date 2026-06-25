@@ -116,23 +116,15 @@ a { color: var(--primary); }
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.65rem;
   text-decoration: none;
   color: var(--ink);
 }
-.brand-icon {
-  width: 42px;
-  height: 42px;
-  border-radius: 12px;
-  background: var(--primary);
-  color: var(--accent);
-  display: grid;
-  place-items: center;
-  padding: 7px;
+.brand-logo {
+  height: 44px;
+  width: auto;
+  border-radius: 6px;
+  object-fit: contain;
 }
-.brand-text { display: flex; flex-direction: column; line-height: 1.15; }
-.brand-text strong { font-size: 1rem; }
-.brand-text small { color: var(--ink-soft); font-size: 0.74rem; letter-spacing: 0.06em; text-transform: uppercase; }
 
 .nav-links {
   display: flex;
